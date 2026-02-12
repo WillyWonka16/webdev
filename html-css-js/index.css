@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  padding: 15px 50px;
+}
+
+nav > ul {
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  justify-content: space-between;
+}
+
+main {
+  padding: 20px 50px;
+}
+
+footer {
+  position: fixed;
+  background-color: darkgray;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 50px;
+}
+
+footer > ul {
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  justify-content: space-between;
+}
+
+footer > ul > li > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer > ul > li > a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.class {
+  background-color: green;
+  color: white;
+}
+
+#id {
+  background-color: red;
+  color: white;
+}
