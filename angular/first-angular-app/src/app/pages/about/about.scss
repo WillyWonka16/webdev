@@ -1,0 +1,37 @@
+.about-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.text-block {
+  margin-bottom: 2.5rem;
+
+  h2 {
+    font-size: 1.4rem;
+    color: #1a1a2e;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    color: #555;
+    line-height: 1.8;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding: 0.5rem 0;
+      color: #555;
+      line-height: 1.6;
+
+      &::before {
+        content: '→ ';
+        color: #16213e;
+        font-weight: 700;
+      }
+    }
+  }
+}

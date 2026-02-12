@@ -1,0 +1,54 @@
+.contact-content {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  label {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #333;
+  }
+
+  input,
+  textarea {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95rem;
+    transition: border-color 0.2s ease;
+
+    &:focus {
+      outline: none;
+      border-color: #16213e;
+    }
+  }
+}
+
+button[type='submit'] {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
